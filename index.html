@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete NCU CSL106N C Programming Platform Based Assignment 1 solutions and explanations.">
+  <title>NCU C Programming | Assignment 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="NCU C Programming home"><span class="brand-mark">C</span><span>NCU<span class="brand-muted"> / CODELAB</span></span></a>
+    <nav><a href="#library">Question bank</a><a href="#guide">Submission guide</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+    <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> CSL106N · 2026 ODD · PLATFORM BASED ASSIGNMENT 01</div>
+      <h1>Think in <em>logic.</em><br>Write in C.</h1>
+      <p class="hero-copy">A structured, searchable coding companion for every problem in the assignment question bank — with runnable C programs, sample cases and clear logic notes.</p>
+      <div class="hero-actions"><a class="primary-btn" href="#library">Explore solutions <span>↓</span></a><a class="text-btn" href="#guide">How to submit ↗</a></div>
+      <div class="hero-stats"><div><strong id="totalCount">46</strong><span>solutions</span></div><div><strong>07</strong><span>modules</span></div><div><strong>100%</strong><span>question-bank coverage</span></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="art-grid"></div><div class="code-card"><div class="code-top"><i></i><i></i><i></i><span>main.c</span></div><pre><b>#include</b> <i>&lt;stdio.h&gt;</i>
+
+<span class="purple">int</span> main(<span class="purple">void</span>) {
+  <span class="purple">int</span> logic = <span class="orange">1</span>;
+  <span class="green">while</span> (logic) {
+    printf(<i>"keep building\\n"</i>);
+    logic = <span class="orange">0</span>;
+  }
+  <span class="purple">return</span> <span class="orange">0</span>;
+}</pre><div class="code-foot"><span>● C LANGUAGE</span><span>COMPILES IN C11</span></div></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+    </section>
+    <section class="ticker"><span>INPUT</span><b>→</b><span>LOGIC</span><b>→</b><span>OUTPUT</span><b>→</b><span>REPEAT</span><b>→</b><span>IMPROVE</span></section>
+    <section id="library" class="library-section">
+      <div class="section-heading"><div><div class="eyebrow">THE COMPLETE QUESTION BANK</div><h2>Find your next <em>solution.</em></h2></div><div class="result-count" id="resultCount">46 problems</div></div>
+      <div class="toolbar"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search title, concept or module…"><kbd>⌘ K</kbd></label><select id="moduleFilter" aria-label="Filter by module"><option value="">All modules</option></select><select id="difficultyFilter" aria-label="Filter by difficulty"><option value="">All difficulties</option><option>Very Easy</option><option>Easy</option><option>Easy–Moderate</option><option>Moderate</option></select></div>
+      <div class="layout">
+        <aside class="sidebar"><div class="side-label">MODULES</div><div id="moduleNav" class="module-nav"></div><div class="side-tip"><span>✳</span><b>Practice tip</b><p>Try writing the logic yourself before opening the solution. Then compare and test edge cases.</p></div></aside>
+        <div class="question-area"><div id="questionGrid" class="question-grid"></div><div id="emptyState" class="empty-state" hidden>No matching problems. Try another search or filter.</div></div>
+      </div>
+    </section>
+    <section id="guide" class="guide-section">
+      <div class="eyebrow">FINAL MILE</div><h2>From local code to <em>live link.</em></h2>
+      <p class="guide-intro">The assignment portal asks for a website URL and states that submission must be made through a specified public GitHub repository. Use the checklist below before submitting.</p>
+      <div class="guide-grid">
+        <article class="guide-card"><span class="step">01</span><h3>Review & test</h3><p>Open each solution, compile with a C11 compiler, and compare its output with the sample. Read the platform's original statement for any input-format differences.</p></article>
+        <article class="guide-card"><span class="step">02</span><h3>Create public repo</h3><p>On GitHub, create a public repository for this assignment. Upload the contents of this project folder, not the ZIP file itself.</p></article>
+        <article class="guide-card"><span class="step">03</span><h3>Enable Pages</h3><p>Open Settings → Pages. Select Deploy from a branch, choose main and /(root), then Save. Wait for the deployment URL.</p></article>
+        <article class="guide-card"><span class="step">04</span><h3>Submit on NCU</h3><p>Open the live Pages URL, check it on desktop and phone, then paste that URL into the assignment's website URL submission field.</p></article>
+      </div>
+      <div class="notice"><strong>Important about platform solutions</strong><p>For LeetCode entries, this site provides complete standalone C programs using standard input/output, while LeetCode's editor generally expects a function-only submission. The function signature is noted where applicable. Some titles in the PDF do not include their complete original statement; those entries are marked so you can verify the exact judge input/output before submitting.</p></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">C</span><span>NCU<span class="brand-muted"> / CODELAB</span></span></a><span>CSL106N · C PROGRAMMING · ASSIGNMENT 01</span><a href="#library">Back to top ↑</a></footer>
+  <div id="modal" class="modal" aria-hidden="true"><div class="modal-backdrop" data-close></div><article class="modal-panel"><button class="close-btn" data-close aria-label="Close">×</button><div id="modalContent"></div></article></div>
+  <script src="app.js"></script>
+</body>
+</html>
